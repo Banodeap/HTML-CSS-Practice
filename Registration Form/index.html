@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Summer Bootcamp</h1>
+    <p id="description"> We are taking a survey to design a perfect bootcamp</p>
+    <form action="" id="survey-form">
+        <div class="common">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" class="input-class">
+            
+        </div>
+        <div class="common">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your E-mail id" class="input-class">
+            
+        </div>
+        <div class="common">
+            <label id="number-label" for="number">Age</label>
+            <input type="number" id="number" name="number" min="0" max="150" placeholder="Enter your Age" class="input-class">
+            
+        </div>
+        <div class="common">
+            <label for="">Which country you belong to ?</label>
+            
+            <select name="dropdown" id="dropdown" class="input-class">
+                <option value="XYZ" disabled selected>Your current city</option>
+                <option value="nagpur">Nagpur</option>
+                <option value="wardha">Wardha</option>
+                <option value="bhandara">Bhandara</option>
+                <option value="other">Other</option>
+            </select>
+            
+        </div>
+        <div class="common">
+            <label for="gender" class="spacing">Gender</label>
+            <label for=""></label>
+            <input type="radio" name="gender" id="" value="Male">Male
+            </label>
+            <label for=""></label>
+            <input type="radio" name="gender" id="" value="Male">Female
+            </label>
+            <label for=""></label>
+            <input type="radio" name="gender" id="" value="Male">Other
+            </label>
+            
+        </div>
+
+        <div class="common">
+            <label for="" class="spacing">How youlike to spend weekend ?</label>
+                <label>
+                <input type="checkbox" name="" id="" value="study">Studying
+                </label>
+                <label>
+                <input type="checkbox" name="" id="" value="outdoor">Playing Outdoor Games
+                </label>
+                <label>
+                <input type="checkbox" name="" id="" value="indoor">Online games
+                </label>
+                <label>
+                <input type="checkbox" name="" id="" value="hobbies">Developing new hobbies
+                </label>
+            
+        </div>
+
+        <div class="common">
+            <label for="time" class="spacing">Prefferd Timing</label>
+            <label for=""></label>
+            <input type="radio" name="time" id="" value="Male">Morning
+            </label>
+            <label for=""></label>
+            <input type="radio" name="time" id="" value="Male">Evening
+            </label>
+            
+            
+        </div>
+        <div class="common"><label for="additional">What activiies you like for summercamp</label>
+            <textarea name="" id="additional" cols="70" rows="4" placeholder="Type here"></textarea>
+        </div>
+        <div class="common">
+            <button id="submit" class="input-class">
+                Submit
+            </button>
+        </div>
+    </form>
+</body>
+</html>
