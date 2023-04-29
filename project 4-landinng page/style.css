@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-weight: 300;
+    line-height: 1.4;
+    
+}
+
+@font-face {
+    font-family: "alex-brush";
+    src: url(https://fonts.googleapis.com/css?family=Acme);
+}
+
+.hero-section{
+    background-image: url(./images/developer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.text-container{
+    color: #fff;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 60px;
+    font-family: Acme;
+    padding-left: 18px;
+}
+
+.text-container h2{
+    font-size: 38px;
+}
+.lg-text{
+    font-size: 60px;
+}
+
+.second-text p{
+    color: #fff;
+    padding-top: 60px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Acme;
+}
+
+.second-container{
+    background-color: black;
+    height: 210px;
+    
+}
+
+.card{
+    background-color: #fff;
+    display: flex;
+    
+    padding: 0 60px;
+    /* justify-content: center; */
+    margin: 90px;
+    width: 280px;
+    gap: 70px;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.card-container:hover{
+    transform: scale(1.06);
+}
+.card-container{
+   box-shadow: 2px 5px #2e294a;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.img-conatiner{
+   
+}
+.text-contain{
+   text-align: justify
+}
+
+.text-contain h3{
+    padding: 6px 0;
+   font-size: 22px;
+   color: rgb(50, 45, 76);
+}
+
+.last-setion{
+    display: flex;
+}
+
+.contact,.about{
+    width: 50%;
+    font-size: 16px;
+    padding: 60px 90px;
+    
+}
+
+.contact{
+    background-color: rgb(249, 103, 40);
+    color: #fff;
+}
+
+.about{
+    background-color:  #722300;
+    color: #fff;
+}
+.contact h3,.about h3{
+    font-size: 32px;
+}
+
+.foot{
+    height: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-family: Acme;
+}
